@@ -1,4 +1,4 @@
-/*﻿using SensorSolutions;
+using SensorSolutions;
 
 try
 {
@@ -84,8 +84,8 @@ catch (Exception ex)
 {
     // Show any errors that happen during the program
     Console.WriteLine($"Error: {ex.Message}");
-}*/
 
+/*
 using System;
 using System.Threading;
 
@@ -128,7 +128,7 @@ namespace SensorSolutions
             const double variation = 5.0;
             return mean + (Random.NextDouble() * 2 - 1) * variation;
         }
-    }
+    }*/
 }
 
 
