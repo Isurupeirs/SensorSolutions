@@ -1,0 +1,28 @@
+{
+  "Sensors": [
+    {
+      "Name": "RackSensor_A",
+      "Location": "Server Room – Slot 1",
+      "MinValue": 22.0,
+      "MaxValue": 24.0,
+      "DataSmoothingEnabled": true,
+      "SmoothingWindowSize": 12,
+      "AnomalyDetectionEnabled": true,
+      "AnomalyThreshold": 1.0,
+      "WarningThreshold": 25,
+      "CriticalThreshold": 28
+    },
+    {
+      "Name": "RackSensor_B",
+      "Location": "Server Room – Slot 2",
+      "MinValue": 22.0,
+      "MaxValue": 24.0,
+      "DataSmoothingEnabled": false,
+      "SmoothingWindowSize": 8,
+      "AnomalyDetectionEnabled": false,
+      "AnomalyThreshold": 1.0,
+      "WarningThreshold": 25,
+      "CriticalThreshold": 28
+    }
+  ]
+}

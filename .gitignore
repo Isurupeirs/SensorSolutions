@@ -1,0 +1,77 @@
+# ----------------------------------------
+# Project: SensorSolutions
+# Custom .NET gitignore (simplified)
+# ----------------------------------------
+
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# IDE cache & user settings
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.userosscache
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs & debugging output
+*.log
+*.tlog
+Logs/
+Log/
+SensorDataLog.txt
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary / backup files
+~$*
+*.tmp
+*.bak
+*.swp
+
+# NUnit / xUnit / test output
+TestResult*/
+xunit-results/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet restore folder
+packages/
+*.nupkg
+*.snupkg
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / front-end package folders (if any)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Cache folders
+.cache/
+temp/
+tmp/
+
+# Publish profiles (optional)
+*.pubxml
+*.publishsettings
+PublishScripts/
+
+# Ignore environment / secrets
+.env*
