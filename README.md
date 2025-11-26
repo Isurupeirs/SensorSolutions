@@ -4,21 +4,13 @@ DataCentreTempMonitor is a .NET console-based application that simulates how tem
 
 
 Contents
-
 Project Overview
-
 Contents
-
 Features
-
 Installation
-
 Usage
-
 Configuration
-
 Testing
-
 Features
 
 Sensor Setup: Loads virtual sensor definitions from a JSON config file.
@@ -50,27 +42,22 @@ Installation
 After cloning the project, complete the following setup steps:
 
 Restore dependencies
-
 dotnet restore
 
 
 Build the solution
-
 dotnet build
 
 
 Run the main application
-
 dotnet run --project DataCentreTempMonitor
 
 
 Execute tests
-
 dotnet test
 
 
 Check test coverage (requires Coverage Gutters extension)
-
 dotnet test --collect:"XPlat Code Coverage"
 
 
