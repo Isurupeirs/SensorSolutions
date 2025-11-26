@@ -1,28 +1,26 @@
-{
-  "Sensors": [
-    {
-      "Name": "RackSensor_A",
-      "Location": "Server Room – Slot 1",
-      "MinValue": 22.0,
-      "MaxValue": 24.0,
-      "DataSmoothingEnabled": true,
-      "SmoothingWindowSize": 12,
-      "AnomalyDetectionEnabled": true,
-      "AnomalyThreshold": 1.0,
-      "WarningThreshold": 25,
-      "CriticalThreshold": 28
-    },
-    {
-      "Name": "RackSensor_B",
-      "Location": "Server Room – Slot 2",
-      "MinValue": 22.0,
-      "MaxValue": 24.0,
-      "DataSmoothingEnabled": false,
-      "SmoothingWindowSize": 8,
-      "AnomalyDetectionEnabled": false,
-      "AnomalyThreshold": 1.0,
-      "WarningThreshold": 25,
-      "CriticalThreshold": 28
-    }
-  ]
-}
+[
+  {
+    "Name": "ServerRoom",
+    "Location": "Rack A",
+    "MinValue": 15,
+    "MaxValue": 35,
+    "EnableSmoothing": true,
+    "WindowSize": 5,
+    "EnableAnomalyDetection": true,
+    "AnomalyLimit": 3,
+    "WarningLimit": 30,
+    "CriticalLimit": 35
+  },
+  {
+    "Name": "Warehouse",
+    "Location": "Sector 9",
+    "MinValue": 10,
+    "MaxValue": 40,
+    "EnableSmoothing": true,
+    "WindowSize": 4,
+    "EnableAnomalyDetection": true,
+    "AnomalyLimit": 4,
+    "WarningLimit": 34,
+    "CriticalLimit": 39
+  }
+]
